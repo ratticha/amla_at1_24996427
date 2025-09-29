@@ -60,4 +60,3 @@ def plot_roc_pr(y_true, p, title_prefix=""):
     ax[1].set_title(f"{title_prefix} PR (AP={average_precision_score(y_true,p):.3f})")
     ax[1].set_xlabel("Recall"); ax[1].set_ylabel("Precision")
     plt.tight_layout(); plt.show()
-
