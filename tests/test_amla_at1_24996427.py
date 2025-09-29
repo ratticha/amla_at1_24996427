@@ -84,3 +84,4 @@ def test_plot_roc_pr_creates_two_axes(simple_data, monkeypatch):
     fig = plt.gcf()
     assert len(fig.axes) == 2
     plt.close("all")
+
