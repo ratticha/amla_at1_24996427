@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "amla_at1_24996427"
-version = "0.1.0"
+version = "2025.0.1.9"
 description = "Common Function Package"
 authors = ["Ratticha"]
 license = "None"
@@ -8,9 +8,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11.4"
-pandas = "2.2.2"
 scikit-learn = "1.5.1"
-
+pandas = "2.2.2"
+matplotlib = "3.10.7"
+seaborn = "0.13.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "8.2.2"
